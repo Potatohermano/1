@@ -1,0 +1,97 @@
+a {
+  color: rgb(231, 138, 138);
+} /* Globally */
+
+/* Each state */
+
+a:visited {
+  text-decoration: none;
+  color: rgb(231, 138, 138);
+}
+a:hover {
+  text-decoration: none;
+  color:  rgb(231, 138, 138);
+}
+a:focus {
+  text-decoration: none;
+  color: rgb(231, 138, 138);
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+h1 {
+  line-height: 1em;
+}
+h3 {
+  line-height: 0em;
+}
+h4 {
+  line-height: 0em;
+}
+
+/* Header */
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#a{
+  cursor: pointer;
+}
+
+.timebox{
+  margin: 5px;
+  background-color: #131b33;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  width: 80px;
+  height: 37px;
+  font-size: 2em;
+  text-align: center;
+  border-radius: 15px;
+  cursor:pointer;
+}
+
+/* Back button on TOP */
+
+.boxc{
+  width: 50px;
+  height: 20px;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 15px;
+  cursor:pointer;
+  position: flex;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+#box1c{
+  background-color: #131b33;
+}
+
+/* Timeline years 2018*/
+
+.vyear{
+  justify-content: space-around;
+}
+
+/* Timeline year divider */
+
+.yeardivider{
+  background-color: #131b33;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 16px;
+  width: 80px;
+  height: 40px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
