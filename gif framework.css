@@ -259,10 +259,11 @@ footer{
 /* Year menu */
 
 .menu_container{
-    position: flex;
     justify-content: center;
     display: flex;
     text-align: center;
+    align-items: center;
+
 
 }
 
@@ -277,8 +278,7 @@ footer{
     font-size: 20px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     margin-bottom: 5px;
-    text-align: center;
-    justify-content: center;
+
 }
 
 .options_container{
