@@ -177,15 +177,15 @@ footer{
 }
 
 #close {
-    color: rgb(231, 138, 138);
+    color:#12255c;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     border: 0;
     border-radius: 20px;
     font-size: 20px;
     display: flex;
     position: relative;
-    left: 300px;
-    top: 10px;
+    left: 258px;
+    bottom: 18px;
     height: 24px;
     width: 100px;
     justify-content: center;
@@ -215,9 +215,9 @@ footer{
 .pop-inner{
     display: flex;
     flex-direction: column;
-    background-color: pink;
-    width: 700px;
-    height: 500px;
+    background-color: rgb(231, 138, 138);
+    width: 620px;
+    height: 460px;
     border-radius: 20px;
 }
 
@@ -225,18 +225,21 @@ footer{
 
 .pop-inner p{
    position: relative;
-   bottom: 27px;
+   bottom: 38px;
    right: 0px;
+   color: #12255c;
 }
 
 .pop-inner h2{
     position: relative;
+    bottom: 8px;
     right: 0px;
+    color:#12255c;
 }
 
 .pop-inner img{
     position: relative;
-    bottom: 20px;
+    bottom: 32px;
     right: 0px;
 }
 
@@ -244,13 +247,11 @@ footer{
 
 .poplight{
     position: flex;
-    width: 708px;
-    height: 503.9px;
+    width: 628px;
+    height: 464px;
     margin-top: 15px;
     border-radius: 22px;
     padding-top: 4px;
-    grid-area: b;
-    left: 125px;
     background: repeating-conic-gradient(from var(--a),#17f3fd 0%, #17f3fd 5%, transparent 5%,
     transparent 40%, #17f3fd 50%);
     animation:  animate 4s linear infinite;
@@ -263,7 +264,6 @@ footer{
     display: flex;
     text-align: center;
     align-items: center;
-
 
 }
 
@@ -321,7 +321,7 @@ footer{
     }
   }
 
-/* menu popup */
+/* menu popup Basic button for function*/
 
 #menu_open {
     background-color: #131b33;
@@ -344,14 +344,16 @@ footer{
     font-size: 20px;
     display: flex;
     position: relative;
-    left: 300px;
-    top: 130px;
+    left: 200px;
+    top: 40px;
     height: 24px;
     width: 100px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
+
+/* menu popup Framework*/
 
 .menu_pop{
     opacity: 0;
@@ -375,8 +377,8 @@ footer{
 .menu_pop-inner{
     display: flex;
     flex-direction: column;
-    background-color: pink;
-    width: 700px;
+    background-color:#1b1d24;
+    width: 500px;
     height: 500px;
     border-radius: 20px;
 }
@@ -397,7 +399,7 @@ footer{
     border-radius: 100px;
     border: 2px solid black;
     border: 0;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     color: black;
     cursor: pointer;
     font-size: 1.2em;
@@ -412,7 +414,8 @@ footer{
     color: white;
   }
   .pattern {
-    background: #f99;
+    background-color:#131b33;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     height: 100%;
     left: 0;
     position: absolute;
@@ -426,10 +429,13 @@ footer{
       background-image:url(school\ images/art.png)
   }
   .bg3 {
-      background-image:url(https://www.youtube.com/channel/UCmhEuFdcdL64eGzj-Ezr2XA)
+      background-image:url(gif\ images/christ.gif)
   }
   .bg4 {
-      background-image:url(gif\ images/christ.gif)
+      background-image:url()
+  }
+  .bg5 {
+      background-image:url()
   }
   .inner {
     height: 100px;
@@ -440,6 +446,7 @@ footer{
     opacity: 1;
     color:#0c1123;
     text-decoration: none;
+    text-shadow: 2px 2px 4px #000000
   }
   .target {
     transform: translate(var(--x), var(--y));
