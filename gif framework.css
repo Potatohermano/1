@@ -183,9 +183,6 @@ footer{
     border-radius: 20px;
     font-size: 20px;
     display: flex;
-    position: relative;
-    left: 258px;
-    bottom: 18px;
     height: 24px;
     width: 100px;
     justify-content: center;
@@ -219,6 +216,8 @@ footer{
     width: 620px;
     height: 460px;
     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Custom positioning for items within flex box*/
@@ -344,10 +343,9 @@ footer{
     font-size: 20px;
     display: flex;
     position: relative;
-    left: 200px;
-    top: 40px;
+    top: 28px;
     height: 24px;
-    width: 100px;
+    width: 70px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -381,11 +379,13 @@ footer{
     width: 500px;
     height: 500px;
     border-radius: 20px;
+    align-items: center;
 }
 
 /* Menu popup options */
 
 .button_container {
+    margin-top: 16px;
     position: flex;
     display: flex;
     flex-direction: column;
